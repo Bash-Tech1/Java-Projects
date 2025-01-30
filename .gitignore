@@ -1,19 +1,15 @@
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
+.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -25,5 +21,18 @@ bin/
 ### VS Code ###
 .vscode/
 
-### Mac OS ###
+### Build & Dependencies ###
+target/       # Maven build output
+build/        # Gradle build output
+*.class       # Java compiled class files
+*.jar         # JAR files
+*.war         # WAR files
+
+### Logs & Temporary Files ###
+*.log
+*.tmp
+hs_err_pid*
+
+### System Files ###
 .DS_Store
+Thumbs.db
